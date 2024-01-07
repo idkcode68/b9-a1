@@ -262,8 +262,8 @@ header {
 }
 
 footer {
-    width: 1600px;
-    height: 609px;
+    width: 1000px;
+    height: 409px;
     flex-shrink: 0;
     background: #070211;
     padding: 150px;
