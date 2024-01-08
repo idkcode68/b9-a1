@@ -1,5 +1,7 @@
 .new-year {
     text-align: center;
+    align-items: center;
+    padding: 150px;
 }
 
 #happy-new-year {
@@ -23,6 +25,7 @@
     font-weight: 900;
     line-height: 95px;
     width: 632px;
+    margin: auto;
 
 }
 
@@ -34,8 +37,8 @@ header {
     border-radius: 16px;
     background-position: 100%;
     margin: 5px 7px 5px 7px;
-
 }
+
 
 .middle {
     padding: 200px;
@@ -74,9 +77,8 @@ header {
 
 #img {
     align-items: center;
-    width: 802.9px;
-    height: 500px;
-    flex-shrink: 0;
+    width: 100%;
+    margin: auto;
 }
 
 .second-header {
@@ -195,10 +197,12 @@ header {
 
 .divone {
     display: flex;
+    gap: 10px;
 }
 
 .divtwo {
     display: flex;
+    gap: 10px;
 }
 
 .btnforbox {
@@ -297,6 +301,7 @@ footer {
 .pics {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .last {
@@ -313,3 +318,95 @@ footer {
     font-weight: 500;
     line-height: normal;
 }
+
+/* optional task */
+.op-one {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.op-two {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.op-three {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.op-a {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+-op.b {
+    width: 276px;
+    color: rgba(89, 82, 102, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.optionalone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto; padding: 100px;
+}
+.aaa{color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;}
+.red-span{color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;}
+.bbb{color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;}
+.ccc{color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */}
+.text{text-align: center;}
+.bg{background-image: url(../B9A1-New-Year-New-Mission-main/B9A1-New-Year-New-Mission-main/resources/Rectangle\ 2.png); background-repeat:no-repeat; background-position: bottom;}
+.img{width:10px; margin-bottom:auto; padding-bottom: 30%; }
+
+
+.bgtwo{display:flex}
+
+.bg{display: flex;}
+
