@@ -369,44 +369,81 @@ footer {
     line-height: 32px;
 }
 
+.left-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
 .optionalone {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto; padding: 100px;
+    margin: auto;
+    padding: 100px;
 }
-.aaa{color: #070211;
+
+.aaa {
+    color: #070211;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;}
-.red-span{color: #F00;
+    line-height: normal;
+}
+
+.red-span {
+    color: #F00;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;}
-.bbb{color: #070211;
+    line-height: normal;
+}
+
+.bbb {
+    color: #070211;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;}
-.ccc{color: rgba(7, 2, 17, 0.60);
+    line-height: normal;
+}
+
+.ccc {
+    color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; /* 160% */}
-.text{text-align: center;}
-.bg{background-image: url(../B9A1-New-Year-New-Mission-main/B9A1-New-Year-New-Mission-main/resources/Rectangle\ 2.png); background-repeat:no-repeat; background-position: bottom;}
-.img{width:10px; margin-bottom:auto; padding-bottom: 30%; }
+    line-height: 32px;
+    /* 160% */
+}
+
+.text {
+    text-align: center;
+}
+
+.bg {
+    background-image: url(../B9A1-New-Year-New-Mission-main/B9A1-New-Year-New-Mission-main/resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.img {
+    width: 10px;
+    margin-bottom: auto;
+    padding-bottom: 30%;
+}
 
 
-.bgtwo{display:flex}
+.bgtwo {
+    display: flex
+}
 
-.bg{display: flex;}
-
+.bg {
+    display: flex;
+}
